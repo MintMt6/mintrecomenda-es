@@ -1,0 +1,115 @@
+/* Estilos Globais */
+body {
+    color: rgb(229, 244, 248);
+    background: rgb(16, 22, 32);
+    margin: 0;
+    font-family: "Delius", sans-serif;
+}
+
+header {
+    background-color: rgb(24, 34, 46);
+    padding: 20px;
+    font-size: 38px;
+    font-family: "Chakra Petch", sans-serif;
+    text-align: center;
+    color: rgb(229, 244, 248);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Chamada */
+.chamada {
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    background: rgba(36, 48, 64, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 8=px;
+}
+
+.chamada h1 {
+    font-size: 28px;
+    font-family: "Tiny5", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.chamada p {
+    font-size: 18px;
+    color: rgb(180, 200, 220);
+}
+
+/* Categoria de Vídeos */
+.categoria {
+    padding: 40px 20px;
+    margin-top: 55px;
+    text-align: center;
+    background: rgba(24, 34, 46, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.categoria h2 {
+    font-family: "Tiny5", sans-serif;
+    font-size: 24px;
+    color: rgb(229, 244, 248);
+    margin-bottom: 15px;
+}
+
+.categoria-videos {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.categoria-videos img {
+    height: 165px;
+    opacity: 0.6;
+    border-radius: 8px;
+    transition: transform 0.3s, opacity 0.3s, border 0.3s;
+}
+
+.categoria-videos img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    border: 2px solid white;
+}
+
+/* Livros e Novels */
+.livros {
+    padding: 40px 20px;
+    margin-top: 55px;
+    text-align: center;
+    background: rgba(24, 34, 46, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.h2-2 {
+    font-family: "Schoolbell", sans-serif;
+    font-size: 24px;
+    color: rgb(229, 244, 248);
+    margin-bottom: 15px;
+}
+
+.categoria-livros {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.categoria-livros img {
+    height: 200px;
+    opacity: 0.6;
+    border-radius: 8px;
+    transition: transform 0.3s, opacity 0.3s, border 0.3s;
+}
+
+.categoria-livros img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    border: 2px solid white;
+}
